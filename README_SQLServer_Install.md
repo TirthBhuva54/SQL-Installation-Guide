@@ -11,21 +11,21 @@ This guide shows **exactly 20 steps** to install **SQL Server Express**, **SQL S
 Open your browser and search for **`download mssql`**.  
 Click the official Microsoft result **“SQL Server Downloads”**.
 
-![Step 1 – Google search for download mssql](./s1.png)
+![Step 1 – Google search for download mssql](./image/s1.png)
 
 ---
 
 ### 2️⃣ Open SQL Server Downloads page
 You are now on the official **SQL Server Downloads** page on microsoft.com.
 
-![Step 2 – SQL Server downloads page](./s2.png)
+![Step 2 – SQL Server downloads page](./image/s2.png)
 
 ---
 
 ### 3️⃣ Choose SQL Server Express
 On the **Top downloads** section, find **SQL Server 2025 Express** (or latest Express version) and click **Download now**.
 
-![Step 3 – Select SQL Server 2025 Express Download now](./s2.png)
+![Step 3 – Select SQL Server 2025 Express Download now](./image/s2.png)
 
 ---
 
@@ -33,14 +33,14 @@ On the **Top downloads** section, find **SQL Server 2025 Express** (or latest Ex
 After the download finishes, run the **SQL Server Express** installer.  
 In the **SQL Server 2022 Express Edition** window, choose **Basic** installation.
 
-![Step 4 – SQL Server 2022 Express Edition Basic install](./s5.png)
+![Step 4 – SQL Server 2022 Express Edition Basic install](./image/s5.png)
 
 ---
 
 ### 5️⃣ Accept license terms
 Read the **Microsoft SQL Server License Terms** and click **Accept**.
 
-![Step 5 – Accept SQL Server license terms](./s6.png)
+![Step 5 – Accept SQL Server license terms](./image/s6.png)
 
 ---
 
@@ -50,7 +50,7 @@ When it finishes, close the installer.
 
 *(No extra configuration is required for this basic setup.)*
 
-![Step 6 – SQL Server Express installation progress/completed](./s7.png)
+![Step 6 – SQL Server Express installation progress/completed](./image/s7.png)
 
 ---
 
@@ -59,7 +59,7 @@ Open the **SQL Server Management Studio** documentation/download page and click:
 
 **“Download the SQL Server Management Studio SSMS 22 installer”**.
 
-![Step 7 – Download SSMS 22 installer](./s9.png)
+![Step 7 – Download SSMS 22 installer](./image/s9.png)
 
 ---
 
@@ -67,14 +67,14 @@ Open the **SQL Server Management Studio** documentation/download page and click:
 Run the downloaded SSMS installer.  
 When Windows shows **User Account Control**, click **Yes** to allow **Visual Studio Installer** to make changes.
 
-![Step 8 – User Account Control for Visual Studio Installer](./s10.png)
+![Step 8 – User Account Control for Visual Studio Installer](./image/s10.png)
 
 ---
 
 ### 9️⃣ Start Visual Studio Installer
 The **Visual Studio Installer** shows a welcome dialog. Click **Continue**.
 
-![Step 9 – Visual Studio Installer Continue](./s11.png)
+![Step 9 – Visual Studio Installer Continue](./image/s11.png)
 
 ---
 
@@ -88,7 +88,7 @@ On the **Workloads** tab, you will see options such as:
 
 Leave the defaults selected (or adjust as you prefer). These include SSMS core components.
 
-![Step 10 – SSMS workloads selection](./s12.png)
+![Step 10 – SSMS workloads selection](./image/s12.png)
 
 ---
 
@@ -103,7 +103,7 @@ On the right side, under **Installation details**, you can see:
 
 Keep the defaults. At the bottom, click **Install**.
 
-![Step 11 – Installation details and Install button](./s13.png)
+![Step 11 – Installation details and Install button](./image/s13.png)
 
 ---
 
@@ -111,7 +111,7 @@ Keep the defaults. At the bottom, click **Install**.
 Wait while SSMS is installed.  
 When you see **“Done installing – The installation has completed successfully”**, click **OK**.
 
-![Step 12 – SSMS Done installing dialog](./s14.png)
+![Step 12 – SSMS Done installing dialog](./image/s14.png)
 
 ---
 
@@ -120,7 +120,7 @@ Open the Start menu, search for **“SQL Server Management Studio”**, and laun
 
 On first start, a sign-in screen appears. Click **“Skip and add accounts later.”**
 
-![Step 13 – Skip sign-in screen](./s15.png)
+![Step 13 – Skip sign-in screen](./image/s15.png)
 
 ---
 
@@ -128,7 +128,7 @@ On first start, a sign-in screen appears. Click **“Skip and add accounts later
 SSMS may ask if you want to try the **new connection dialog experience**.  
 You can click **Yes** (or **No**; it doesn’t affect the server connection).
 
-![Step 14 – New connection dialog choice](./s16.png)
+![Step 14 – New connection dialog choice](./image/s16.png)
 
 ---
 
@@ -136,14 +136,14 @@ You can click **Yes** (or **No**; it doesn’t affect the server connection).
 Now you see the **Connect to Server** window.  
 The **Server name** box is currently empty. Leave **Authentication** as **Windows Authentication**.
 
-![Step 15 – Empty Server name in Connect to Server](./s17.png)
+![Step 15 – Empty Server name in Connect to Server](./image/s17.png)
 
 ---
 
 ### 1️⃣6️⃣ Open System Information
 To find your computer name, open the Start menu, type **“System Information”**, and open the **System Information** app.
 
-![Step 16 – Open System Information from Start menu](./s18.png)
+![Step 16 – Open System Information from Start menu](./image/s18.png)
 
 ---
 
@@ -151,7 +151,7 @@ To find your computer name, open the Start menu, type **“System Information”
 In **System Summary**, find the **System Name** value (for example, `WINDOWS11`).  
 This is your machine name.
 
-![Step 17 – System Name in System Information](./s19.png)
+![Step 17 – System Name in System Information](./image/s19.png)
 
 ---
 
@@ -170,7 +170,7 @@ WINDOWS11\SQLEXPRESS
 
 This is what you will enter into **Server name** in SSMS.
 
-![Step 18 – Example of instance name WINDOWS11\SQLEXPRESS](./s20.png)
+![Step 18 – Example of instance name WINDOWS11\SQLEXPRESS](./image/s20.png)
 
 ---
 
@@ -183,7 +183,7 @@ Return to the **Connect to Server** window in SSMS and fill in:
 
 Then click **Connect**.
 
-![Step 19 – Enter Server name WINDOWS11\SQLEXPRESS and Connect](./step19.png)
+![Step 19 – Enter Server name WINDOWS11\SQLEXPRESS and Connect](./image/step19.png)
 
 ---
 
@@ -197,7 +197,7 @@ You have successfully:
 - Installed **SQL Server Management Studio (SSMS)**  
 - Connected to your local SQL Server instance ✅
 
-![Step 20 – Connected SQL Server instance in SSMS (Object Explorer)](./s20.png)
+![Step 20 – Connected SQL Server instance in SSMS (Object Explorer)](./image/s20.png)
 
 ---
 
