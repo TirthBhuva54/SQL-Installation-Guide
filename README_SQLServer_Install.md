@@ -183,7 +183,7 @@ Return to the **Connect to Server** window in SSMS and fill in:
 
 Then click **Connect**.
 
-![Step 19 – Enter Server name WINDOWS11\SQLEXPRESS and Connect](./image/step19.png)
+![Step 19 – Enter Server name WINDOWS11\SQLEXPRESS and Connect](./image/s19.png)
 
 ---
 
